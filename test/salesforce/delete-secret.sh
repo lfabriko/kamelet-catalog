@@ -16,4 +16,4 @@
 # limitations under the License.
 
 # delete secret
-kubectl delete secret salesforce-credentials
+kubectl delete secret salesforce-credentials -n ${YAKS_NAMESPACE}
